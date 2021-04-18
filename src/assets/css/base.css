@@ -1,0 +1,47 @@
+@import "normalize.css";
+:root {
+    --back-color: #EBF5FC;
+    /*--back-color: #EBECF0;*/
+    --text-color: #555F76;
+    --h1-color: #666666;
+    --box-shadow: 6px 6px 15px #c8d0d6,
+                 -6px -6px 15px #ffffff;
+    --click-shadow: inset 5px 5px 17px #c8d0d6,
+                    inset -5px -5px 17px #ffffff;
+}
+
+html,body,#app{width: 100%; height: 100%;}
+
+a,
+a:hover,
+a:link,
+a:visited,
+a:active {
+    outline: none;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    background-color: var(--back-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.edition {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    color: var(--text-color);
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}

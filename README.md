@@ -1,19 +1,20 @@
-# v0.01
+# README
 
-## Project setup
-```
-npm install
-```
+#### 说明：
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> 这是自己一直想做的一件事。用自己的知识，撸一个博客出来。能不能自定义另外一说，就是硬写。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 版本说明：
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**v1.0：**主页、友链页面可用
+
+#### 待更新：
+
+- 悬浮菜单可以拖拽
+- 返回顶部悬浮火箭
+- 右上角切换主题toggle
+- 文章展示页面
+- 富文本编辑器引入
+- 登录管理员
+
+> 就这样吧，目前只有纯前端的效果。没有后端数据接入。后续学习后再撸完文章、编辑、登录功能。
